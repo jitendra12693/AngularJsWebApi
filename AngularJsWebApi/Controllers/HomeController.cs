@@ -11,6 +11,7 @@ namespace AngularJsWebApi.Controllers
     {
         public ActionResult Index()
         {
+            string name = "Jitendra Dubey";
             ViewBag.Title = "Home Page";
             MyMethod();
             return View();
